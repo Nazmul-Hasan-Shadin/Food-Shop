@@ -45,6 +45,7 @@
       };
     </script>
     <style>
+   
       .lato-font {
         font-family: "Lato", sans-serif;
       }
@@ -53,7 +54,7 @@
   <body class="lato-font">
     <header>
       <nav class="mt-4 grid sm:content-center">
-        <div class="navbar rounded-[600px] bg-primary max-w-screen-xl mx-auto">
+        <div class="navbar flex flex-row-reverse lg:flex-row  rounded-[600px] bg-primary max-w-screen-xl mx-auto">
           <div class="navbar-start">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -74,7 +75,7 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28 lg:w-52"
               >
               <li><a>Home </a></li>
 
@@ -85,9 +86,9 @@
                 <input
                   type="text"
                   placeholder="search  here"
-                  class="input input-bordered w-full sm:w-full bg-white text-[12122a] rounded-[12px] max-w-xs"
+                  class="input input-bordered w-[100px] sm:p-0  bg-white text-[12122a] rounded-[12px] "
                 />
-                <i class="fa-solid absolute right-9 left-14 top-5 fa-magnifying-glass"></i>
+                <i class="fa-solid absolute right-9 left-20 top-5 fa-magnifying-glass"></i>
               </div>
               </ul>
             </div>
@@ -103,10 +104,12 @@
             </div>
           </div>
 
-          <div class="flex w-full justify-center gap-3">
+        
+          <div class=" lg:flex  w-full justify-center gap-3">
             <img src="./images/logo.png" alt="" />
-            <h3 class="text-4xl font-bold text-white">Fruit Burst</h3>
+            <h3 class="  text-xl lg:text-4xl font-bold text-white">Fruit Burst</h3>
           </div>
+         
 
           <div class="navbar-end hidden lg:block pr-5 relative">
             <input
